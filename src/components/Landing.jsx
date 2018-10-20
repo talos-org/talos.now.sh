@@ -46,7 +46,7 @@ const Heading = styled.p`
   margin: 0;
 `;
 
-const Logo = styled.div`
+const GradientBG = styled.div`
   background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
   height: 100vh;
   width: 100%;
@@ -83,7 +83,7 @@ const Landing = () => {
           </Wrapper>
         </Col>
         <Col>
-          <Logo />
+          <GradientBG />
         </Col>
       </Row>
     </Grid>
